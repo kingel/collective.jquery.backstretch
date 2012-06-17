@@ -1,0 +1,23 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    xmlns:cmf="http://namespaces.zope.org/cmf"
+    xmlns:five="http://namespaces.zope.org/five"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    xmlns:i18n="http://namespaces.zope.org/i18n"
+    i18n_domain="collective.jquery.backstretch">
+
+  <browser:resource
+    name="jquery.backstretch.js"
+    file="resources/js/jquery.backstretch.js"
+    />
+
+  <genericsetup:registerProfile
+      name="default"
+      title="collective.jquery.backstretch default"
+      directory="profiles/default"
+      description='Install collective.jquery.backstretch in Plone'
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+  />
+
+</configure>

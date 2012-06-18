@@ -1,8 +1,0 @@
-=============
-API Reference
-=============
-
-.. autosummary::
-    :toctree: ./_api/
-
-..  collective.jquerybackstretch.foo
